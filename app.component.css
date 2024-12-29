@@ -1,0 +1,40 @@
+.ng-invalid .ng-touched,
+.ng-submitted .ng-invalid {
+  border-color: red;
+}
+
+.table {
+  width: 100%;
+}
+
+thead th {
+  text-align: center;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+tbody td {
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #dee2e6;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid #dee2e6;
+}
+
+.action-buttons button {
+  flex: 1;
+  padding: 5px 10px;
+}
+
+.action-buttons button:first-child {
+  border-right: 1px solid #dee2e6;
+}
+
+.action-buttons button:hover {
+  opacity: 0.9;
+}
